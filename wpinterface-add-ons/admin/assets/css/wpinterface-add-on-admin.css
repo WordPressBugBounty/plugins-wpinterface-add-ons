@@ -1,0 +1,102 @@
+:root {
+    --import--primary-background: #02f38a;
+    --import--secondary-background: #02f38a;
+    --import--primary-color: #000;
+    --import--secondary-color: #fff;
+    --import--border-color: #000;
+}
+.wpi-import-section .wpi-import-header {
+    text-align: center;
+    margin: 40px auto;
+    max-width: 920px;
+}
+.wpi-import-section .wpi-import-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    gap: 30px;
+}
+.wpi-import-panel {
+    display: block;
+    position: relative;
+}
+.import-panel-image {
+    border: 1px solid #ebebeb;
+    position: relative;
+}
+.import-panel-details {
+    margin: 0;
+    padding: 20px 10px;
+    border-top: 1px solid #ebebeb;
+    background: #ffffff;
+}
+.import-panel-title {
+    white-space: nowrap;
+    display: block;
+    margin: 0;
+    text-align: center;
+    padding: 5px 0 6px;
+}
+.import-button-group {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.wpi-import-panel:hover .import-button-group,
+.wpi-import-panel:focus .import-button-group {
+    display: flex;
+}
+.wpi-import-panel:hover .import-panel-title,
+.wpi-import-panel:focus .import-panel-title {
+    display: none;
+}
+.import-badge-premium {
+    background: var(--import--primary-background);
+    color: var(--import--secondary-color);
+    border: .1rem solid var(--import--border-color);
+    border-radius: 0;
+    box-shadow: .3rem .3rem var(--import--border-color);
+    position: absolute;
+    top: 30px;
+    left: 0;
+    padding: 5px 29px;
+    z-index: 9;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+    -webkit-text-fill-color: var(--import--secondary-color);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--import--border-color);
+    text-shadow: 1px 1px 0 var(--import--border-color);
+    letter-spacing: 2px;
+}
+.import-panel-details .import-button {
+    color: #fff;
+}
+.import-panel-details .import-button.button.button-primary {
+    background-color: #65bf7e;
+    border-color: #65bf7e;
+}
+.import-panel-details .import-button.button.button-secondary {
+    background-color: #8e65c0;
+    border-color: #8e65c0;
+}
+.import-panel-details .import-button:where(:hover, :focus) {
+    color: #fff !important;
+    background-color: #3c434a !important;
+    border-color: #3c434a !important;
+}
+.wpinterface-add-ons .ocdi__theme-about-info hr,
+.wpinterface-add-ons .ocdi__theme-about-info .theme-tags,
+.wpinterface-add-ons .ocdi__theme-about-info .theme-author,
+.wpinterface-add-ons .ocdi-install-plugins-content-content .ocdi-content-notice.ocdi-content-notice--warning,
+.wpinterface-add-ons .ocdi-install-plugins-content-content .plugin-item-wpforms-lite:first-child,
+.wpinterface-add-ons .ocdi-install-plugins-content-content .plugin-item-all-in-one-seo-pack,
+.wpinterface-add-ons .ocdi-install-plugins-content-content .plugin-item-google-analytics-for-wordpress,
+.wpinterface-add-ons .ocdi__content-container .ocdi__demo-import-notice {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+}

@@ -1,0 +1,91 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WPInterface Add-ons\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-28 08:42+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.9; wp-6.5.3\n"
+"X-Domain: wpinterface-add-ons"
+
+#: classes/class-wpintf-demo-import.php:225
+msgid "Demo Import"
+msgstr ""
+
+#: classes/class-wpintf-demo-import.php:382
+msgid ""
+"Get access to carefully crafted professional and visually appealing website "
+"templates, saving you valuable time and effort in the development process."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.wpinterface.com"
+msgstr ""
+
+#: classes/class-wpintf-demo-import.php:408
+msgid "Import Demo"
+msgstr ""
+
+#: classes/class-wpintf-demo-import.php:418
+msgid "Premium"
+msgstr ""
+
+#: classes/class-wpintf-demo-import.php:407
+#: classes/class-wpintf-demo-import.php:427
+msgid "Preview Demo"
+msgstr ""
+
+#: classes/class-wpintf-demo-import.php:380
+msgid "Starter Templates"
+msgstr ""
+
+#: classes/class-wpintf-demo-import.php:428
+msgid "Upgrade Now"
+msgstr ""
+
+#. Author of the plugin
+msgid "WPInterface"
+msgstr ""
+
+#. Name of the plugin
+msgid "WPInterface Add-ons"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"WPInterface Add-ons enhances user-friendliness and simplifies the website-"
+"building process by allowing users to import demo data with a single click, "
+"creating a website identical to the demo effortlessly."
+msgstr ""
+
+#. %s: One Click Demo Import plugin link
+#: wpinterface-add-ons.php:95
+#, php-format
+msgid ""
+"WPInterface Add-ons is currently inactive. Please install and activate the "
+"%s plugin to proceed."
+msgstr ""
+
+#. %s: PHP version
+#: wpinterface-add-ons.php:63
+#, php-format
+msgid ""
+"WPInterface Add-ons requires PHP version %s+, plugin is currently NOT "
+"RUNNING."
+msgstr ""
+
+#. %s: WordPress version
+#: wpinterface-add-ons.php:79
+#, php-format
+msgid ""
+"WPInterface Add-ons requires WordPress version %s+. Because you are using an "
+"earlier version, the plugin is currently NOT RUNNING."
+msgstr ""
