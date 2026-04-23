@@ -345,9 +345,9 @@ if (!class_exists('Wpinterface_Add_Ons_Demo_Import_Companion')) :
             // Assign navigation menu locations.
             $menu_location_details = array(
                 'top-menu',
-                'primary-menu',
-                'social-menu',
-                'footer-menu',
+                'primary',
+                'social',
+                'footer',
             );
 
             if (!empty($menu_location_details)) {

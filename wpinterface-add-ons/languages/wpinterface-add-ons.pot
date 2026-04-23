@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPInterface Add-ons\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-28 08:42+0000\n"
+"POT-Creation-Date: 2026-04-22 12:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -15,6 +15,12 @@ msgstr ""
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.6.9; wp-6.5.3\n"
 "X-Domain: wpinterface-add-ons"
+
+#. %s: Theme slug.
+#: classes/class-wpintf-smartocs-integration.php:263
+#, php-format
+msgid "Default demo for %s."
+msgstr ""
 
 #: classes/class-wpintf-demo-import.php:225
 msgid "Demo Import"
@@ -38,6 +44,10 @@ msgstr ""
 msgid "Premium"
 msgstr ""
 
+#: classes/class-wpintf-smartocs-integration.php:290
+msgid "Premium starter site. Upgrade to Pro to import this demo."
+msgstr ""
+
 #: classes/class-wpintf-demo-import.php:407
 #: classes/class-wpintf-demo-import.php:427
 msgid "Preview Demo"
@@ -49,6 +59,10 @@ msgstr ""
 
 #: classes/class-wpintf-demo-import.php:428
 msgid "Upgrade Now"
+msgstr ""
+
+#: classes/class-wpintf-smartocs-integration.php:164
+msgid "Upgrade to Pro"
 msgstr ""
 
 #. Author of the plugin
@@ -67,7 +81,7 @@ msgid ""
 msgstr ""
 
 #. %s: One Click Demo Import plugin link
-#: wpinterface-add-ons.php:95
+#: wpinterface-add-ons.php:108
 #, php-format
 msgid ""
 "WPInterface Add-ons is currently inactive. Please install and activate the "
@@ -75,7 +89,7 @@ msgid ""
 msgstr ""
 
 #. %s: PHP version
-#: wpinterface-add-ons.php:63
+#: wpinterface-add-ons.php:75
 #, php-format
 msgid ""
 "WPInterface Add-ons requires PHP version %s+, plugin is currently NOT "
@@ -83,7 +97,7 @@ msgid ""
 msgstr ""
 
 #. %s: WordPress version
-#: wpinterface-add-ons.php:79
+#: wpinterface-add-ons.php:91
 #, php-format
 msgid ""
 "WPInterface Add-ons requires WordPress version %s+. Because you are using an "

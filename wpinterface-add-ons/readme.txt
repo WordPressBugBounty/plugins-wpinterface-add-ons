@@ -2,19 +2,22 @@
 Contributors: WPInterface
 Tags: demo import, theme addon
 Requires at least: 5.6
-Tested up to: 6.6
-Stable tag: 1.0.1
+Tested up to: 6.9
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
+Import WPInterface demos in one click. Quickly set up your site and apply settings, widgets, and customization to match the demo in minutes.
+
 == Description ==
-Easily import all official "WPInterface" themes demo with a single click. Enjoy simple installation and activation of all recommended plugins as needed. Seamlessly import customization options, theme settings, and widgets for WPInterface's official themes.
+
+Easily import all official WPInterface theme demos with a single click, eliminating the need to manually recreate layouts or configure settings from scratch. This feature is designed to save time and simplify the website setup process for both beginners and experienced users. With a streamlined installation process, you can quickly activate the theme and automatically install any recommended or required plugins. There’s no need to search for compatible tools, everything is handled within a guided workflow to ensure your site functions exactly as intended. The importer doesn’t just replicate the visual layout; it brings in complete demo content, including pages, posts, images, menus, and widgets. This allows you to start with a fully structured website that mirrors the official demo, making it easier to understand how each element is built and customized.
 
 == Notes ==
 * The plugin remotely accesses our GitHub repository at https://github.com/wpinterface/free-themes-templates to import static demo content.
 
 = Requirements =
-* WordPress 4.7 or later.
+* WordPress 5.6 or later.
 * [WPInterface Official Themes](https://wpinterface.com/themes/).
 
 == Copyright ==
@@ -41,6 +44,7 @@ The 'WPInterface Add-ons' plugin requires the 'One Click Demo Import' plugin to 
 The 'WPInterface Add-ons' plugin needs the 'One Click Demo Import' plugin to function correctly.
 
 == Installation ==
+
     = Using The WordPress Dashboard =
 	* Navigate to the 'Add New' in the plugins dashboard
 	* Search for WPInterface Add-ons
@@ -64,7 +68,13 @@ The 'WPInterface Add-ons' plugin needs the 'One Click Demo Import' plugin to fun
 
 
 == Changelog ==
-= 1.0 =
+
+= 1.0.2 =
+* Added: Support for "Smart One Click Setup" plugin alongside the existing One Click Demo Import (OCDI) integration.
+* Improved: Removed hard `Requires Plugins: one-click-demo-import` header so the plugin can activate without either importer installed.
+* Tested up to: WordPress 6.9.
+
+= 1.0.0 =
 * Initial release.
 
 
